@@ -59,7 +59,7 @@
        goto DMC;      
     }
 
-    Serial.print("4. AutoCalibrate the sensor? : Yes (y) or No (n) ->");
+    Serial.print("4. AutoCalibrate sensor? : Yes (y) or No (n) ->");
 
     CAL:  
     while(Serial.available() == 0) { }  
